@@ -1,0 +1,50 @@
+/*------------------------------------------------------------------
+/*!
+  Atom App v0.0.1-alpha.1 (http://)
+  Copyright 2019
+  Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ 
+  [Table of contents]
+  1. Base Styles
+  2. Utilities
+  3. UI components
+-------------------------------------------------------------------*/
+/*---------------------------
+2. Base Styles
+---------------------------*/
+
+/*---------------------------
+2. Utilities
+---------------------------*/
+.text-muted {
+  color: #818a91!important;
+}
+.text-italic {
+  font-style: italic;
+}
+.display-none {
+  display: none !important;
+}
+.display-block {
+  display: block;
+}
+
+/*---------------------------
+2. UI Components
+---------------------------*/
+/*
+COMPONENT streamline-findings
+*/
+.streamline-findings .sl-item .sl-item-title, .streamline-findings .sl-item .sl-item-link, .streamline-findings .sl-item .sl-item-notes {
+  width: 90%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.streamline-findings .sl-item-link {
+  color: #0088DE;
+  font-weight: bold;
+}
+streamline-findings .sl-item-notes {
+  opacity: .5;
+}
